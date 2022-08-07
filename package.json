@@ -1,0 +1,63 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "keywords": [
+    "kanban",
+    "poc",
+    "react"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/enzyme": "3.10.8",
+    "@types/jest": "26.0.22",
+    "@types/react-dom": "17.0.3",
+    "@types/react-redux": "7.1.16",
+    "@types/redux": "3.6.31",
+    "@types/redux-logger": "3.0.8",
+    "ansi-colors": "4.1.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "fs": "0.0.2",
+    "jest-cli": "26.6.3",
+    "jest-enzyme": "7.1.2",
+    "react": "17.0.2",
+    "react-docgen": "5.3.1",
+    "react-dom": "17.0.2",
+    "react-fake-props": "0.3.2",
+    "react-redux": "7.2.3",
+    "react-scripts": "4.0.3",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0",
+    "sass": "^1.54.3",
+    "sass-loader": "11.0.1",
+    "sfcookies": "1.0.2",
+    "styled-components": "5.2.1",
+    "typescript": "4.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "src/**/*.ts*",
+      "!src/index.js",
+      "!src/setupTests.js",
+      "!src/tempPolyfills.js",
+      "!src/**/__snapshots__/"
+    ]
+  }
+}

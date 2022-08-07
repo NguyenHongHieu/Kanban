@@ -1,0 +1,10 @@
+@import "../../styles/sass/variables.scss";
+@import "../../styles/sass/mixins.scss";
+
+.Board {  
+    display: flex;
+    flex-direction: row;
+    max-width: $screen-ph-max;  
+    font-family: 'Questrial', sans-serif;
+    margin: 0 auto;
+}
